@@ -1,0 +1,16 @@
+{
+    "toppings": [
+        { "id": 1, "name": "egg", "vegan": false }, 
+        { "id": 2, "name": "cheese", "vegan": false }, 
+        { "id": 3, "name": "salad", "vegan": true }, 
+        { "id": 4, "name": "onion", "vegan": true }, 
+        { "id": 5, "name": "steak", "vegan": false }, 
+        { "id": 6, "name": "chicken", "vegan": false }, 
+        { "id": 7, "name": "bacon",  "vegan": false }, 
+        { "id": 8, "name": "fish", "vegan": false }, 
+        { "id": 9, "name": "pickle", "vegan": true }, 
+        { "id": 10, "name": "mayo", "vegan": true }, 
+        { "id": 11, "name": "ketchup", "vegan": true },
+        { "id": 12, "name": "soja steak", "vegan": true }
+    ]
+}
