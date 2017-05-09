@@ -4,12 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>index</title>
+    <title>Document</title>
 
-   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <style>
+        .toppings button {
+            float: left;
+            margin: .3em;
+        }
+    </style>
+
 </head>
 <body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+
+                <div class="row">
+                    <div class="col-sm-12 toppings">
+                        <h2>Toppings</h2>
+                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2>Build this burger :</h2>
+                        <ul class="recipe">
+
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-sm-6">
+
+                <h1>BURGER MAKER</h1>
+                <button id="start" type="button" class="btn btn-primary btn-lg btn-block">Start</button>
+                <button id="stop" type="button" class="btn btn-primary btn-lg btn-block">Stop</button>
+                
+                <ul class="toppingOK">
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
     <script src="bundle.js"></script>
-    
 </body>
 </html>
